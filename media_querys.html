@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+
+		body {
+			background: olive; 
+		}
+		.solo-desktop {
+			display: block;
+		}
+
+		@media (max-width: 900px) {
+			body {
+				background: peru;
+			}
+
+			.solo-desktop {
+				display: none;
+			}
+
+
+		}
+		@media (max-width: 600px) {
+			body {
+				background: red;
+			}
+
+			.solo-desktop {
+				display: block;
+			}
+
+
+		}
+	</style>
+</head>
+<body>
+	<p class="solo-desktop"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci non eligendi labore, molestias! Temporibus consequatur obcaecati rerum! Necessitatibus adipisci aliquam laudantium. Aspernatur iure accusantium quasi aut! Minima, odio, dolore.</p>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aliquid obcaecati officia ratione, saepe porro, eaque quasi sapiente repellat illo animi, quis expedita non neque rerum. Sapiente impedit laboriosam nesciunt.</p>
+</body>
+</html>

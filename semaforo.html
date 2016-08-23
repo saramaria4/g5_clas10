@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Semaforo</title>
+	<link rel="stylesheet" href="print.css" media="print">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<style>
+		body {
+			background: green;
+		}
+
+		.solo-print {
+			display: none;
+
+		}
+		@media (max-width: 900px) {
+		 	body {
+		 		background: peru;
+		 	}
+
+		 }
+		 @media (max-width: 600px) {
+		 	body {
+		 		background: red;
+		 	}
+
+		}
+
+	
+
+	</style>
+</head>
+<body>
+	<img src="http://lorempixel.com/100/100" alt="">
+	<h1>Título</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis velit vero assumenda, pariatur! Vero laboriosam numquam qui distinctio, aliquid esse neque, quae fugiat unde perspiciatis nesciunt earum sint quas, ad!</p>
+
+	<p class="solo-print">http://www.mipagina.com</p>
+</body>
+</html>
+
